@@ -7,6 +7,10 @@ div{
     padding: 30px;
 }
 
+body{
+    margin: 150px;
+    
+}
 table{
     border-collapse: collapse;
     width: 1000px;
