@@ -1,0 +1,20 @@
+.maindiv{
+    background-color: white;
+    /* display: inline-block; */
+}
+.person-info{
+    display: inline-block;
+    background-color: grey;
+    height: 100px;
+    width: 250px;
+    margin: 5px;
+    border: 2px solid rgb(172, 167, 167);
+}
+
+.icon{
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: inline-block;
+}
