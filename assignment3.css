@@ -1,20 +1,78 @@
+body{
+    background-color: #fdfcfe;
+}
 .maindiv{
-    background-color: white;
-    /* display: inline-block; */
+    margin-left: 40px;
 }
 .person-info{
     display: inline-block;
-    background-color: grey;
-    height: 100px;
-    width: 250px;
-    margin: 5px;
+    background-color: #deddde;
+    height: 150px;
+    width: 350px;
     border: 2px solid rgb(172, 167, 167);
+    border-radius: 8px;
+    position: relative; 
 }
-
+.mute{
+    position: absolute; 
+    margin-top: 130px;
+    margin-left: 10px;
+    /* height: 20px; */
+}
 .icon{
-    height: 30px;
+    height: 40px;
     width: 100px;
     border-radius: 20px;
     border: 1px solid black;
     display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+    border: 1px solid grey;
+    background-color: white;
+
 }
+.down{
+    font-size: small;
+}
+i{
+    margin-top: 5px;
+}
+.name {
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+  }
+
+  .varification{
+    color: red;
+    
+  }
+  .footer{
+    position: fixed;
+    bottom: 0;
+    
+  }
+
+  .fo{
+    margin-left: 350px;
+  }
+
+  .vedio{
+    width: 150px;
+  }
+
+  .ai{
+    width: 120px;
+  }
+  .bs{
+    width: 180px;
+  }
+  .reaction{
+    width: 70px;
+  }
+  .more{
+    width: 40px;
+    border-radius: 50%;
+  }
