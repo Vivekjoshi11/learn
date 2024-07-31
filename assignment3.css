@@ -17,7 +17,7 @@ body{
     position: absolute; 
     margin-top: 130px;
     margin-left: 10px;
-    /* height: 20px; */
+    font-size: small;
 }
 .icon{
     height: 40px;
@@ -75,4 +75,7 @@ i{
   .more{
     width: 40px;
     border-radius: 50%;
+  }
+  .unvarified{
+    font-size: small;
   }
