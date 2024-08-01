@@ -1,35 +1,37 @@
-img{
+img {
     text-align: center;
 }
 
-.image{
-     margin-top: 100px;
+.image {
+    margin-top: 100px;
     text-align: center;
     position: relative;
 }
 
-.name{
-    /* position: absolute; */
+.name {
+
     margin-top: -229px;
     margin-right: 411px;
     color: rgb(2, 2, 2);
 }
-span{
+
+span {
     background-color: yellow;
 }
 
-.btn{
+.btn {
     position: fixed;
     bottom: 0;
-    right: 0;
+    right: 5px;
     background-color: antiquewhite;
     height: 50px;
     width: 150px;
 }
 
-.image1{
+.image1 {
     position: absolute;
-  height: 100px;
-  width: 100px;
-  margin-top: -186px;
+    height: 100px;
+    width: 100px;
+    top: 100px;
+    right: 850px;
 }
