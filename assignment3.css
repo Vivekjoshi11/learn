@@ -37,14 +37,6 @@ body{
 i{
     margin-top: 5px;
 }
-.name {
-    position: absolute; 
-    top: 50%; 
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    text-align: center;
-  }
-
   .varification{
     color: red;
     
@@ -78,4 +70,11 @@ i{
   }
   .unvarified{
     font-size: small;
+  }
+  .name {
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
   }
