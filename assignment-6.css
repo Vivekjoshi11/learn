@@ -13,8 +13,7 @@ body{
 
 .box-1{
     background-color: lightgray;
-    height: 120px;
-    
+    height: 120px;  
     position: relative;
     border-collapse: collapse;
     text-align: left;
@@ -22,7 +21,6 @@ body{
     
 }
 .icon{
-
     margin-left: 100px;
     height: 600px;
     color: #ad8271;
@@ -32,7 +30,6 @@ body{
     margin-right: 15px;
 }
 .icon3{
-
     margin-left: 100px;
     height: 600px;
     color: #ad8271;
@@ -45,8 +42,7 @@ body{
 .box-2{
     background-color: white;
     height: 310px;
-    position: absolute;
-   
+    position: absolute;   
 }
 .btn-1{
     background-color: #0a6dfc;
@@ -94,7 +90,6 @@ body{
     width: 8px;
     margin-left: 12px;
     background-color: white;
-
 }
 
 .dot-3{
@@ -108,6 +103,7 @@ body{
 .advertisement{
     width: 700px;
     margin-left: 10px;
+    /* display: inline-block; */
 }
 .advertisement-img{
     background-color: #295cb2;
@@ -130,7 +126,6 @@ body{
 .btn-2{
     background-color: green;
     color: white;
-    /* text-align: center; */
     width: 220px;
     height: 30px;
     border: 0.5px ;
