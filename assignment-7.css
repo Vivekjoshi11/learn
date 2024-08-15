@@ -13,10 +13,10 @@ body{
     margin-bottom: 20px;
 }
 
-.image-margin:hover{
+/* .image-margin:hover{
     height: 200px;
     width: 200px;
-}
+} */
 .himage{
     background-image: url('https://alachuatemple.com/wp-content/uploads/2023/05/feastplatesq2.jpg');
     height: 200px;
@@ -101,11 +101,11 @@ body{
     padding-top: 20px;
 
 }
-.content-image{
+/* .content-image{
     
     height: 452px;
     width: 350px;
-}
+} */
 .content-image:hover{
   height: 470px;
   width: 380px;
@@ -139,9 +139,11 @@ body{
       .content-image-tablet{
           height: 452px;
           width: auto;
+          display: none;
       }
       .content-image-mobile{
-          display: none;
+          height: 452px;
+          width: auto;
       }
 
       .himage{
@@ -184,13 +186,14 @@ body{
       height: 470px;
       width: auto;
     }
-    .content-image-desktop{
-        display: none;
-    }
     .content-image-tablet{
         height: 452px;
         width: auto;
     }
+    .content-image-desktop{
+        display: none;
+    }
+    
     .content-image-mobile{
         display: none;
     }
