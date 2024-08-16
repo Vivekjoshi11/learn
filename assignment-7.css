@@ -11,6 +11,12 @@ body{
 .image-margin{
     margin-left: 30px;
     margin-bottom: 20px;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    background-size: cover;
+    display: inline-block;
+    overflow: hidden;
 }
 
 /* .image-margin:hover{
@@ -19,48 +25,28 @@ body{
 } */
 .himage{
     background-image: url('https://alachuatemple.com/wp-content/uploads/2023/05/feastplatesq2.jpg');
-    height: 200px;
-    width: 200px;
-    position: relative;
-    background-size: cover;
-    display: inline-block;
-    overflow: hidden;
+   
 }
 .himage:hover{
     background-size: 120%; 
 }
 .himage1{
     background-image: url('https://alachuatemple.com/wp-content/uploads/2023/03/balarama-face.jpg');
-    height: 200px;
-    width: 200px;
-    position: relative;
-    background-size: cover;
-    display: inline-block;
-    overflow: hidden;
+  
 }
 .himage1:hover{
     background-size: 120%; 
 }
 .himage2{
     background-image: url('https://alachuatemple.com/wp-content/uploads/2023/05/guesthouse1sq.jpg');
-    height: 200px;
-    width: 200px;
-    position: relative;
-    background-size: cover;
-    display: inline-block;
-    overflow: hidden;
+    
 }
 .himage2:hover{
     background-size: 120%; 
 }
 .himage3{
     background-image: url('https://alachuatemple.com/wp-content/uploads/2023/05/bhagavad-gita-mala-sq.jpg');
-    height: 200px;
-    width: 200px;
-    position: relative;
-    background-size: cover;
-    display: inline-block;
-    overflow: hidden;
+  
 }
 .himage3:hover{
     background-size: 120%; 
