@@ -54,7 +54,6 @@ li{
     text-align: center;
     top: 250px;
     left: 400px;
-    /* overflow: auto; */
 }
 .games-nav{
     text-align: center;
@@ -67,6 +66,12 @@ li{
    margin-bottom: 10px;
    color: white;
    font-weight: 900;
+}
+.smallerhead{
+    font-weight: 900;
+    color: white;
+    font-size: 12px;
+    width: 100px;
 }
 .largehead{
     font-size: 30px;
@@ -101,11 +106,18 @@ li{
     text-align: center;
     padding-top: 14px;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     background-color: rgba(0, 0, 0, 0.5);
     margin-top: 10px;
-    height: 35px;
+    height: 48px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.play-option img, span{
+    margin-left: 10px;
+    margin-bottom: 10px;
+
 }
 .play-option:hover{
     background-color: rgba(27, 27, 27, 0.5);
@@ -116,19 +128,14 @@ li{
     margin-top: 0;
 }
 
-/* .play-option p{
-    color: white;
-} */
+
 
 .play-option p:nth-child(:last-child) {
     margin-bottom: 0;
 }
-/* .scroll-bar{
-   overflow-x: scroll;
-} */
+
 @media screen and (max-width: 1042px){
    .game-card{
-    /* width: auto; */
     height: 200px;
    }
    .game-card-head-icon{
@@ -153,9 +160,7 @@ li{
     .game-card{
         width: 150px;
     }
-    /* .game-name{
-        height: 30px;
-    } */
+  
     .poster-image{
       height: 200px;
       width: 150px;
@@ -166,13 +171,11 @@ li{
         height: 45px;
         font-size: 20px;
         margin-bottom: 32px;
-        /* margin-top: 10px; */
     }
     .display-non{
         display: none;
     }
     .games{
-        /* display: inline-flex; */
         display: flex;
         flex-direction: row;
         overflow-y: auto;
@@ -184,12 +187,23 @@ li{
         height: 30px;
         width: 30px;
     }
-    /* .games-nav{
-        display: flex;
-        flex-direction: row;
-    } */
+ 
      .margin-left{
         margin-left: 300px;
     }
+    .play-option span{
+        font-size: 15px;
+    }
 }
 
+@media screen and (min-width:900px){
+    .chess-icon{
+        display: none;
+    }
+}
+@media screen and (max-width:600px){
+    
+    .margin-left{
+        margin-left: 200px;
+    }
+}
